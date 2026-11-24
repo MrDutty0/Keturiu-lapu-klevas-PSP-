@@ -13,6 +13,9 @@ Here's a list of features included in this project:
 
 | Name | Description |
 |------|-------------|
+| [CORS](https://start.ktor.io/p/io.ktor/server-cors) | Enables Cross-Origin Resource Sharing (CORS) |
+| [Swagger](https://start.ktor.io/p/io.ktor/server-swagger) | Serves Swagger UI for your project |
+
 
 ## Building & Running
 To build or run the project, use one of the following tasks:
