@@ -1,0 +1,9 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - com.example.InfoRenewalKt.startPolling
+      - com.example.SerializationKt.configureSerialization
+      - com.example.HttpKt.configureHttp
+      - com.example.RoutingKt.configureRouting
