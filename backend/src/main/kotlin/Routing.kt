@@ -9,5 +9,8 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Hello, World!")
         }
+        get("/bus-locations") {
+            call.respond(current_buses)
+        }
     }
 }

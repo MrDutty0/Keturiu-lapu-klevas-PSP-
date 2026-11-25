@@ -19,5 +19,15 @@ paths:
               examples:
                 Example#1:
                   value: "Hello World!"
+  /bus-locations:
+    get:
+      description: "List of all live bus locations"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            text/plain:
+              schema:
+                type: "json"
 components:
   schemas: {}
